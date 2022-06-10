@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    border: 3px dashed lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper--row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    margin: 0px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+    min-width: 100px;
+    min-height: 25px;
+    padding: 5px;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    min-width: 300px;
+    min-height: 100px;
+    
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+// ########## COMPONENT CLASSES ########## //
+
+.custom-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.custom-wrapper--column {
+    flex-direction: column;
+}
+
+.custom-input {
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.custom-button {
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    &:active {
+        background-color: lightgray;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+}

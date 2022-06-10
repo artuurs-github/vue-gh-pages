@@ -1,0 +1,64 @@
+// ########## CONTAINERS ########## //
+
+.students-view {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 25px;
+    padding: 0px 50px;
+}
+
+.students-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.students {
+    display: flex;
+    justify-content: space-between;
+}
+
+.students-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 5px;
+    width: 326px;
+}
+
+.students-selected {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 5px;
+}
+
+// ########## ELEMENTS ########## //
+
+.students__student {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+.students__button {
+    padding: 7.5px 25px;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(230, 230, 230);
+    }
+    
+    &:active {
+      background-color: lightgray;
+    }
+}

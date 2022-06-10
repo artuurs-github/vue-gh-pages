@@ -1,0 +1,19 @@
+.animals__button {
+    padding: 10px 25px;
+    background-color: #FFFFFF;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.75;
+    }
+}
+
+.active {
+    background-color: rgb(65, 184, 131);
+    border: 3px solid rgb(53, 73, 94);
+    color: #FFFFFF;
+}
+
+// ========== SWITCH ========== //

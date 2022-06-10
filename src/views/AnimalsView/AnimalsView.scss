@@ -1,0 +1,131 @@
+// ========== CONTAINERS ========== //
+
+.animals-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    margin-top: 25px;
+}
+
+.animals {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 100%;
+    max-width: 720px;
+    padding: 15px;
+    border: 3px dashed lightgray;
+    border-radius: 5px;
+}
+
+.animals-header {
+    display: flex;
+    gap: 15px;
+}
+
+.animals-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.animals-filters {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+// ========== ELEMENTS ========== //
+
+.animals__input {
+    width: 100%;
+    padding: 10px;
+    font: inherit;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.animals__select {
+    width: 50%;
+    padding: 10px;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+
+    font-family: inherit;
+    font-style: italic;
+}
+
+.animals__button {
+    padding: 10px 25px;
+    background-color: #FFFFFF;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.75;
+    }
+}
+
+// ========== //
+
+.animals__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+.animals__list-empty {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.animals__tag {
+    padding: 5px 25px;
+    max-width: 75px;
+    
+    font-style: italic;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.animals__button-close {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+    &:hover {
+        background-color: lightgray;
+        cursor: pointer;
+        opacity: 0.75;
+    }
+}
+
+// ========== SWITCH ========== //
+
+.form-check-input {
+    
+    &:focus {
+        border-color: rgb(53, 73, 94);
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgb(65 184 131 / 25%);
+        // TODO: background-image-fill
+    }
+
+    &:checked {
+        background-color: rgb(65, 184, 131);
+    }
+}

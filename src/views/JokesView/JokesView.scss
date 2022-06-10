@@ -1,0 +1,89 @@
+// ########## CONTAINERS ########## //
+
+.jokes-view {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 25px;
+  padding: 0px 50px;
+}
+
+.jokes-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.jokes {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.jokes-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.jokes-select-container {
+  display: flex;
+  gap: 15px;
+}
+
+.jokes-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+// ########## ELEMENTS ########## //
+
+.jokes-filters__select {
+  padding: 10px;
+  border: 3px solid lightgray;
+  border-radius: 5px;
+}
+
+.jokes__button {
+  padding: 7.5px 25px;
+  background-color: white;
+  border: 3px solid lightgray;
+  border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+  }
+  
+  &:active {
+    background-color: lightgray;
+  }
+}
+
+.jokes__button--secondary {
+  padding: 5px;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+.jokes__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  border: 3px solid lightgray;
+  border-radius: 5px;
+}
+
+.jokes__card-info {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.jokes__card-list {
+  margin: 0px;
+  padding-left: 15px;
+  list-style-type: none;
+}

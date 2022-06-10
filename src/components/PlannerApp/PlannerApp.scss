@@ -1,0 +1,115 @@
+// ========== CONTAINERS ========== //
+
+.planner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 100%;
+    max-width: 720px;
+    padding: 15px;
+    border: 3px dashed lightgray;
+    border-radius: 5px;
+}
+
+.planner-header {
+    display: flex;
+    gap: 15px;
+}
+
+.planner-tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.planner-filters {
+    display: flex;
+    gap: 15px;
+}
+
+// ========== ELEMENTS ========== //
+
+.planner__task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+.planner__task label {
+    margin-left: 10px;
+}
+
+.planner__task-empty {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.planner__input {
+    width: 100%;
+    padding: 10px;
+    font: inherit;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+input[type=checkbox] {
+    accent-color: rgb(53, 73, 94);
+    border:3px solid #FFFFFF;
+}
+
+.planner__button {
+    padding: 10px 25px;
+    background-color: #FFFFFF;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.75;
+    }
+}
+
+.planner__button-close {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+    &:hover {
+        background-color: lightgray;
+        cursor: pointer;
+        opacity: 0.75;
+    }
+}
+
+.completed {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.active {
+    background-color: rgb(65, 184, 131);
+    border: 3px solid rgb(53, 73, 94);
+    color: #FFFFFF;
+}
+
+// ========== MEDIA-QUERY ========== //
+
+@media only screen and (max-width: 480px) {
+    .planner-filters {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
