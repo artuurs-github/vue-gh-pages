@@ -21,6 +21,7 @@ export default defineComponent({
   align-items: center;
   gap: 25px;
 
+  padding: 25px;
   margin-top: 25px;
 }
 

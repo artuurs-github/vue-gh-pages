@@ -30,7 +30,7 @@
         <input
           class="animals__input"
           type="text"
-          placeholder="Add new animal..."
+          placeholder="Add animal..."
           v-model="newAnimalName"
         />
         <select class="animals__select" v-model="selectedAnimalType">
