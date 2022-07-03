@@ -1,16 +1,14 @@
-# vue-gh-pages
+# vue-todo-variations
 
 ## Project link
 ```
-https://artuurs-github.github.io/vue-gh-pages/
+artuurs-github-vue-todo-variations.netlify.app
 ```
 
 ## Project description
 
-This is a Vue.js project — a single-page application, that contains two components - variations of a basic ToDo App with local storage functionality.
+This is a single-page application (made in Vue.js) that contains two components - variations of a basic ToDo App with local storage functionality.
 
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
