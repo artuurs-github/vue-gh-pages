@@ -7,33 +7,30 @@ artuurs-github-vue-todo-variations.netlify.app
 
 ## Project description
 
-This is a single-page application (made in Vue.js) that contains two components - variations of a basic ToDo App with local storage functionality.
+This project is a single-page application with two components - Planner and Animals - as variations of a basic ToDo app with local storage functionality.
+
+Made with Vue.js.
 
 <br/>
 <br/>
 <br/>
 
 ## Additional notes
+## Available scripts
 
-### Project setup
-```
-npm install
-```
+In the project directory, you can run:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### `npm install`
+Runs the app setup.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### `npm run serve`
+Compiles and hot-reloads for development.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### `npm run build`
+Compiles and minifies for production.
+
+### `npm run lint`
+Lints and fixes files.
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
