@@ -11,11 +11,6 @@ This project is a single-page application with two components - Planner and Anim
 
 Made with Vue.js.
 
-<br/>
-<br/>
-<br/>
-
-## Additional notes
 ## Available scripts
 
 In the project directory, you can run:
